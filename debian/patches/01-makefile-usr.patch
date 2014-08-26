@@ -1,0 +1,19 @@
+Description: Save binary to /usr instead of /usr/local
+Origin:      Minos
+Author:      Javier Lopez <m@javier.io>
+Last-Update: <2014-08-25>
+--- a/Makefile
++++ b/Makefile
+@@ -30,10 +30,10 @@ EXTRA_LDFLAGS =
+ # Paths
+ 
+ # Installation path
+-PREFIX ?= /usr/local
++PREFIX ?= /usr
+ BINDIR = $(PREFIX)/bin
+ LOCALEDIR = $(PREFIX)/share/locale
+-MANDIR = $(PREFIX)/man
++MANDIR = $(PREFIX)/share/man
+ 
+ # Where your .c-files live
+ SRC = src

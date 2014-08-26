@@ -1,0 +1,15 @@
+Source: ms-sys
+Section: admin
+Priority: optional
+Maintainer: Javier Lopez <chilicuil@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.5)
+Standards-Version: 3.9.4
+Homepage: http://ms-sys.sourceforge.net/
+
+Package: ms-sys
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Write a Microsoft compatible boot record
+ The program does the same as Microsoft's "fdisk /mbr" to a hard disk or
+ "sys d:" to a floppy or FAT32 partition, except that it does not copy
+ any system files (only the boot record is written).
