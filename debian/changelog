@@ -1,3 +1,10 @@
+ms-sys (1:201608161057+git69627c1-minos) precise; urgency=low
+
+  * add trusty/xenial packages into lp recipe:
+    https://code.launchpad.net/~minos-archive/+recipe/ms-sys
+
+ -- Javier P.L. <chilicuil@ubuntu.com>  Tue, 16 Aug 2016 10:57:11 -0500
+
 ms-sys (1:201408252150+git69627c1-minos) precise; urgency=low
 
   * New version
