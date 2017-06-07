@@ -1,7 +1,7 @@
 Source: ms-sys
 Section: admin
 Priority: optional
-Maintainer: Javier Lopez <chilicuil@ubuntu.com>
+Maintainer: Javier López <javier-lopez@ubuntu.com>
 Build-Depends: debhelper (>= 7.0.5)
 Standards-Version: 3.9.4
 Homepage: http://ms-sys.sourceforge.net/
